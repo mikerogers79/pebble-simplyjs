@@ -40,7 +40,34 @@ function todayTstamp() {
 return tstamp;  
 }
 
+//find a keyword in a string
+function findKeyWord(inputString, keyword) {
+  
+  var isMatch = false;
+  var matchPos = inputString.indexOf(keyword);
+  
+  if(matchPos > -1) {
+    
+    isMatch = true;
+    
+  }
+  
+return isMatch;
+}
 
+
+
+//loop through all of the headlines
+function loopHeadlines(headlines) {
+  
+  for (var i =0; i < headlines.length; i++) {
+    
+    
+    
+  }
+  
+return;  
+}
 
 /**
 EXECUTE THIS
